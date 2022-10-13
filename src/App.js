@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Ubicacion from './components/Ubicacion';
+import Tarjetas from './components/Tarjetas';
+import SomosMoquehua from './components/SomosMoquehua';
+import Footer from './components/Footer';
+import BtnWp from './components/Btn-wp';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <BtnWp/>
+     <Navbar/>
+     <Hero/>
+     <SomosMoquehua/>
+     <Tarjetas/>
+     <Ubicacion/>
+     <Footer/>
     </div>
   );
 }

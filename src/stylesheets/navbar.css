@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap');
+/* CREAR VARIABLES PARA LOS COLORES (rosa #cb50eb)*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-container {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    height: 5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.logo {
+    height: 4rem;
+    padding-left: 15px;
+}
+
+.title {
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 10px 10px 10px 10px;
+    padding: 15px 0px 0px 15px;
+    color: rgba(0, 0, 0, 0.799);
+    font-family: 'Signika', sans-serif;
+    cursor: pointer;
+    transition: all .5s;
+    
+
+}
+.title:hover{
+    color: #cb50eb;
+    transition: all .5s;
+}
+
+.menu-hamburguer {
+    padding-right: 2rem;
+    font-size: 20px;
+    color: black;
+    transition: all .4s;
+}
+.menu-hamburguer:hover{
+    color: #cb50eb;
+    transition: all .2s;
+}
+
+
+.links {
+    position: fixed;
+    width: 100%;
+    top: 79px;
+    background: white;
+    color: black;
+    transition: all .8s;
+    z-index: -1;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    /* slider abajo */
+}
+
+.links li {
+    opacity: 100;
+    line-height: 30px;
+    margin: 40px 0;
+    cursor: pointer;
+    text-align: center;
+    transition: all 2s;
+    list-style: none;
+}
+
+.links li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+    transition: all .5s;
+}
+
+.links li a:hover{
+    color: #cb50eb;
+    transition: all .2s;
+}
+
+.links.hidden {
+    position: absolute;
+    top: -400px;
+    z-index: -20;
+}
+
+.links.hidden li {
+    opacity: 0;
+    transition: all 0.1s;
+}
+
+.redes-container {
+    display: none;
+}
+
+/*---------RESPONSIVE DESKTOP---------*/
+
+@media (min-width:968px) {
+    .menu-hamburguer {
+        display: none;
+    }
+    
+    .container .logo-container {
+        padding-left: 4%;
+    }
+
+    .container {
+        height: 90px;
+
+    }
+
+    .links.hidden {
+        opacity: 100;
+        display: flex;
+        margin: 3px;
+        gap: 30px;
+        position: static;
+        justify-content: flex-end;
+        padding-right: 10%;
+        box-shadow: none;
+    }
+
+    .container .links.hidden li {
+        display: flex;
+        opacity: 100;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        box-shadow: none;
+
+    }
+
+    .links {
+        opacity: 100;
+        display: flex;
+        margin: 3px;
+        gap: 30px;
+        position: static;
+        justify-content: flex-end;
+        padding-right: 10%;
+        box-shadow: none;
+        /* slider abajo */
+    }
+    .links li{
+        display: flex;
+        opacity: 100;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        box-shadow: none;
+    }
+
+}

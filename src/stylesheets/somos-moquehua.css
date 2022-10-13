@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap');
+
+
+
+:root{
+    --monstserrat : 'Montserrat', sans-serif;
+    --titillium: 'Titillium Web', sans-serif;
+    --color-vete:  #cb50eb;
+}
+
+.somos-moquehua img{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    filter:drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.27))
+    ;
+
+}
+
+.somos-moquehua{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 5px;
+    background-color: white;
+    
+}
+.somos-moquehua-title{
+    margin-bottom: 10px;
+}
+.somos-moquehua h1{
+    font-family:var(--monstserrat) ;
+    font-size: 30px;
+}
+.somos-moquehua a{
+    text-decoration: none;
+    color: var(--color-vete);
+
+}
+
+.somos-moquehua p {
+    font-family: var(--titillium);
+    color: rgb(53, 53, 53);
+    font-size: 18px;
+
+}
+.somos-moquehua span{
+    color: var(--color-vete);
+    font-family: 'Signika', sans-serif;
+
+    font-size: 30px;
+}
+.somos-moquehua div .ig{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 100%;
+    background-color: var(--color-vete);
+    transition: all .3s;
+
+}
+.somos-moquehua div .fb{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 100%;
+    background-color: rgb(54, 108, 255);
+    transition: all .3s;
+}
+
+.somos-moquehua div .ig:hover{
+    background-color:#983baf;
+    color: rgb(255, 255, 255);
+
+}
+.somos-moquehua div .fb:hover{
+    background-color: rgb(47, 91, 211);
+
+}
+
+
+.btn-icons{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.wp{
+    font-size: 1px;
+}
+
+/* RESPONSIVE DESKTOP */
+
+@media (min-width:968px) {
+    .somos-moquehua {
+        flex-direction: row;
+    }
+
+    .logo-vete-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .somos-moquehua img {
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+    }
+
+    .somos-moquehua h1 {
+        font-size: 43px;
+        font-weight: 600;
+    }
+
+    .somos-moquehua span {
+        font-size: 50px;
+
+    }
+
+    .descripcion {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 50px;
+        font-size: 30px;
+    }
+
+    .descripcion h1 ~ p {
+        font-size: 20px;
+    }
+
+}

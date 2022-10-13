@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+:root{
+    --monstserrat : 'Montserrat', sans-serif;
+    --titillium: 'Titillium Web', sans-serif;
+    --color-vete:  #cb50eb;
+}
+.servicios-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.servicios-title p{
+    font-size: 17px;
+    text-align: center;
+    margin: 20px 0 0 0;
+    color: rgb(99, 99, 99);
+    
+}
+.card-servicios h1{
+    font-family: Roboto, sans-serif;
+    color: var(--color-vete);
+    display:flex;
+    justify-content: center;
+    font-family: var(--monstserrat);
+}
+.card-servicios p{
+    width: 70%;
+    text-align: center;
+}
+
+.card-container{
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.card{
+    
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all .2s ;
+    cursor: pointer;
+}
+.card:hover{
+    transform: translateY(-4%);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.card-img{
+    width: 400px;
+    height: 220px;
+    object-fit: cover;
+    object-position: -0px -55px;
+}
+
+.card-title{
+    margin: 20px 0;
+    font-size: 25px; 
+    font-family: var(--monstserrat) ;
+}
+.card-p{
+    margin: 15px 15px;
+    color: rgb(102, 101, 101);
+}
+
+.card-a{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    color: var(--color-vete);
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-family:Roboto, sans-serif;
+    font-weight: 600;
+    transition: all .3s;
+}
+.card-a:hover{
+    color: #e684ff;
+}
+.fc-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media (min-width:968px){
+    .card-servicios p{
+        font-size: 23px;
+    }
+    .card-servicios img{
+        height: 100px;
+        width: 100px;
+    }
+    .card-servicios{
+        font-size: 20px;
+    }   
+    .card{
+        width: 400px;
+        height: 400px;
+    }
+    .card-img{
+        width: 400px;
+        object-position: -0px -40px;
+    }
+    img.cat{
+        object-position: -0px -100px; 
+    }
+    .card-container{
+         padding-bottom: 90px;
+    }
+
+
+}

@@ -1,0 +1,29 @@
+
+.btn-wp-fixed{
+    position: fixed;
+    top: 520px;
+    right: 20px;
+    font-size: 50px;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    color: rgb(78, 213, 78);
+    padding: 6px;
+    box-shadow: rgba(0, 0, 0, 0.403) 0px 8px 24px;
+    transition: all .3s;
+    z-index: 110;
+}
+
+.btn-wp-fixed:hover{
+    background-color: rgb(78, 213, 78);
+    color: white;
+}
+
+@media (min-width:968px){
+    .btn-wp-fixed{
+    top: 800px;
+    right: 40px;
+    
+
+   }
+}
