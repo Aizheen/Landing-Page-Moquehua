@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/Landing-Page-Moquehua/static/css/main.9fe5e7e0.css",
-    "main.js": "/Landing-Page-Moquehua/static/js/main.f18d80b8.js",
-    "static/media/tarjeta 1.jpg": "/Landing-Page-Moquehua/static/media/tarjeta 1.64ce6109eec269639dca.jpg",
-    "static/media/hero-2.jpg": "/Landing-Page-Moquehua/static/media/hero-2.3c19805af5627e9b18a3.jpg",
-    "static/media/tarjeta 2.jpg": "/Landing-Page-Moquehua/static/media/tarjeta 2.cd78169ab93ad5220d78.jpg",
-    "static/media/tarjeta 3.jpg": "/Landing-Page-Moquehua/static/media/tarjeta 3.3dd722c18081f7495b9b.jpg",
-    "static/media/vete.png": "/Landing-Page-Moquehua/static/media/vete.1833f4f1c60efe95c477.png",
-    "static/media/hero-1.jpg": "/Landing-Page-Moquehua/static/media/hero-1.333b15502989423b1a68.jpg",
-    "static/media/foto-vete-afuera.png": "/Landing-Page-Moquehua/static/media/foto-vete-afuera.dc3bdaf291789f5df83c.png",
-    "static/media/hero-3.jpg": "/Landing-Page-Moquehua/static/media/hero-3.bbb81c8e3ec4c751504f.jpg",
-    "static/media/sobre-nosotros.png": "/Landing-Page-Moquehua/static/media/sobre-nosotros.805d01f32581b4deeaea.png",
+    "main.css": "/Landing-Page-Moquehua/static/css/main.6add7dfc.css",
+    "main.js": "/Landing-Page-Moquehua/static/js/main.810af834.js",
+    "static/media/tarjeta 1.webp": "/Landing-Page-Moquehua/static/media/tarjeta 1.44b3e26d9b33eab2def4.webp",
+    "static/media/tarjeta 2.webp": "/Landing-Page-Moquehua/static/media/tarjeta 2.341b58e78e1cb2e254c7.webp",
+    "static/media/foto-vete-afuera.webp": "/Landing-Page-Moquehua/static/media/foto-vete-afuera.0972d330a00e069cea57.webp",
+    "static/media/hero.webp": "/Landing-Page-Moquehua/static/media/hero.5651c8893285627fe41e.webp",
+    "static/media/tarjeta 3.webp": "/Landing-Page-Moquehua/static/media/tarjeta 3.fac5e2c72368d310eabf.webp",
+    "static/media/vete.webp": "/Landing-Page-Moquehua/static/media/vete.2049e3ee6fcdcdb69056.webp",
+    "static/media/sobre-nosotros.webp": "/Landing-Page-Moquehua/static/media/sobre-nosotros.0fbdd4281d79e206d273.webp",
+    "static/media/donde-estamos.webp": "/Landing-Page-Moquehua/static/media/donde-estamos.8c1ff8754aa53976592e.webp",
     "index.html": "/Landing-Page-Moquehua/index.html",
-    "main.9fe5e7e0.css.map": "/Landing-Page-Moquehua/static/css/main.9fe5e7e0.css.map",
-    "main.f18d80b8.js.map": "/Landing-Page-Moquehua/static/js/main.f18d80b8.js.map"
+    "main.6add7dfc.css.map": "/Landing-Page-Moquehua/static/css/main.6add7dfc.css.map",
+    "main.810af834.js.map": "/Landing-Page-Moquehua/static/js/main.810af834.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fe5e7e0.css",
-    "static/js/main.f18d80b8.js"
+    "static/css/main.6add7dfc.css",
+    "static/js/main.810af834.js"
   ]
 }
