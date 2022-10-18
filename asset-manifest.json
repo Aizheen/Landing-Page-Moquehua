@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Landing-Page-Moquehua/static/css/main.6add7dfc.css",
-    "main.js": "/Landing-Page-Moquehua/static/js/main.9cfb31dc.js",
+    "main.js": "/Landing-Page-Moquehua/static/js/main.14b604bf.js",
     "static/media/tarjeta 1.webp": "/Landing-Page-Moquehua/static/media/tarjeta 1.44b3e26d9b33eab2def4.webp",
     "static/media/tarjeta 2.webp": "/Landing-Page-Moquehua/static/media/tarjeta 2.341b58e78e1cb2e254c7.webp",
     "static/media/foto-vete-afuera.webp": "/Landing-Page-Moquehua/static/media/foto-vete-afuera.0972d330a00e069cea57.webp",
@@ -12,10 +12,10 @@
     "static/media/donde-estamos.webp": "/Landing-Page-Moquehua/static/media/donde-estamos.8c1ff8754aa53976592e.webp",
     "index.html": "/Landing-Page-Moquehua/index.html",
     "main.6add7dfc.css.map": "/Landing-Page-Moquehua/static/css/main.6add7dfc.css.map",
-    "main.9cfb31dc.js.map": "/Landing-Page-Moquehua/static/js/main.9cfb31dc.js.map"
+    "main.14b604bf.js.map": "/Landing-Page-Moquehua/static/js/main.14b604bf.js.map"
   },
   "entrypoints": [
     "static/css/main.6add7dfc.css",
-    "static/js/main.9cfb31dc.js"
+    "static/js/main.14b604bf.js"
   ]
 }
